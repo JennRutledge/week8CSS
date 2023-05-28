@@ -1,0 +1,112 @@
+html {
+    /* used to create the base of the whole site, background color, font, margins and padding */
+    margin: auto;
+    padding: 2rem;
+    background-color: papayawhip;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+body {
+    /* used to create the margin for the body of the site pages */
+    margin: auto;
+}
+
+h1, h4 {
+    /* used to color and center the heading 1 and heading 4 elements throughout the site */
+    color: #800080;
+    text-align: center; 
+    
+}
+
+
+h3 {
+    /* used to color and center the heading 3 elements throughout the site */
+    color: #8a2be2;
+    text-align: center;
+    text-shadow: 2px 4px 10px #da70d6 ;
+}
+
+/* h4 {
+    combined with heading 1 because they are the same settings!!
+    color: #800080;
+    text-align: center;
+} */
+
+p {
+    /* used to color the background of the paragraghs created, to stand out from the background */
+      /* This color combination for the site background and the paragraph background will not pass
+      for accesiblity standards, not enough of a contrast.  */
+    background-color: #ffe4c4;
+}
+
+img {
+    /* used to style the images borders and spacing around the images. */
+    margin: 15px;
+    border: 5px solid black;
+    border-radius: 1rem;
+}
+
+
+a:hover {
+    /* used to change the color seen when hovering over links, this color combo with the 
+    background does pass accessibility standard requirements. */
+    color: #b00861;
+}
+
+table, th, td {
+    /* used to style the borders and background colores of the table used. */
+    border: 3px dotted;
+    border-collapse: collapse;
+    border-color: #800080;
+    background-color: bisque;
+}
+
+.box {
+    /* class created to put a visible box around information so it stands out. */
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border: 2px solid #dda0dd;
+    border-radius: 1rem;
+}
+
+.center {
+    /* class created to center elements in the containers where it is used. */
+    text-align: center;
+}
+
+.list {
+    /* class created to style the way lists are viewed including a border. */
+    margin: auto;
+    height: auto;
+    padding: 20px;
+    border: 5px double #deb887;
+}
+
+#width1 {
+    /* id created to assign the width to an area. */
+    width: 225px;
+}
+
+#width2 {
+    /* id created to assign a different width to an area. */
+    width: 450px;
+}
+
+#fixed {
+    /* id created to fix the table so it would render faster and give it a specific size. */
+    table-layout: fixed;
+    width: 600px;
+}
+
+
+/* Office Hours Help */
+/* how to use id with css properties */
+#clue {
+    background-color: #00fffb7b;
+}
+/* how to use class with css properties */
+.blues {
+    color: red;
+}
